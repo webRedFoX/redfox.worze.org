@@ -1,0 +1,93 @@
+body {
+  color: #222;
+  letter-spacing: 1px; }
+
+::selection {
+  color: #FF6347;
+  background: #888; }
+
+html {
+  scrollbar-face-color: #33b5e5; }
+
+a {
+  color: #f1c40f; }
+
+p {
+  color: #888; }
+
+.color_element {
+  color: #f1c40f; }
+
+.color_bg {
+  background-color: #f1c40f; }
+
+.color_border {
+  border-color: #f1c40f; }
+
+.bg_light {
+  background-color: #FAFAFA; }
+
+.bg_dark {
+  background-color: #222;
+  color: #fff; }
+
+.toggle_menu {
+  background-color: #222; }
+
+.top_menu a:hover {
+  color: #f1c40f;
+  background-color: rgba(255, 255, 255, 0.15);
+  transition: all 0.6s ease-in-out; }
+
+section hr {
+  background-color: #888;
+  color: #888; }
+
+section.s_portfolio .mix_filter_controls ul li {
+  color: #888; }
+  section.s_portfolio .mix_filter_controls ul li.active {
+    color: #f1c40f; }
+section.s_portfolio .portfolio_item .port_item_cont h3 {
+  color: #fff; }
+section.s_portfolio .portfolio_item .port_item_cont p {
+  color: #fff; }
+section.s_portfolio .portfolio_item .port_item_cont a {
+  background-color: transparent;
+  color: #f1c40f;
+  border: 2px solid #f1c40f;
+  padding: 5px; }
+
+.port_descr p {
+  color: #fff; }
+.port_descr button.mfp-close {
+  color: #fff; }
+
+section.s_contact form.form {
+  color: #888; }
+  section.s_contact form.form .form-group label {
+    color: #f1c40f; }
+  section.s_contact form.form .form-group input:focus,
+  section.s_contact form.form .form-group textarea:focus,
+  section.s_contact form.form .form-group input:hover,
+  section.s_contact form.form .form-group textarea:hover,
+  section.s_contact form.form .form-group input:active,
+  section.s_contact form.form .form-group textarea:active {
+    border: 1px solid #f1c40f;
+    transition: all 0.9s; }
+  section.s_contact form.form .form-group #inputEmail-error,
+  section.s_contact form.form .form-group #inputName-error,
+  section.s_contact form.form .form-group #textarea-error {
+    color: red;
+    text-align: right; }
+  section.s_contact form.form .form-group .valid {
+    background-color: #daf4e5; }
+  section.s_contact form.form button {
+    background-color: #f1c40f; }
+
+footer.main_footer p {
+  color: #888; }
+footer.main_footer .social_wrap ul,
+footer.main_footer .social_wrap li {
+  color: #f1c40f; }
+
+/*# sourceMappingURL=yellow.css.map */

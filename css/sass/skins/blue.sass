@@ -1,0 +1,124 @@
+@import "../bourbon/bourbon"
+
+$color: #3498db //Theme skin
+$text_color: #888
+$main_color: #222
+$bg_light: #FAFAFA
+
+@mixin kerning($kerning)
+	letter-spacing: $kerning + px
+
+body
+	color: $main_color
+	+kerning(1)
+
+
+::selection
+	color: #FF6347
+	background: $text_color
+
+html
+	scrollbar-face-color: #33b5e5
+
+a
+	color: $color
+
+p
+	color: $text_color
+
+
+.color_element
+	color: $color
+.color_bg
+	background-color: $color
+.color_border
+	border-color: $color
+
+
+.bg_light 
+	background-color: $bg_light
+
+
+.bg_dark
+	background-color: $main_color
+	color: #fff
+
+
+.toggle_menu
+	background-color: $main_color
+
+
+.top_menu
+	a:hover
+		color: $color
+		background-color: rgba(255,255,255,.15)
+		transition: all 0.6s ease-in-out 
+
+
+section
+	hr
+		background-color: $text_color
+		color: $text_color
+
+
+section.s_portfolio
+	.mix_filter_controls
+		ul li
+			color: $text-color
+			&.active
+				color: $color
+	.portfolio_item
+		.port_item_cont
+			h3
+				color: #fff
+			p
+				color: #fff
+			a
+				background-color: transparent
+				color: $color
+				border: 2px solid $color
+				padding: 5px	
+.port_descr
+	p
+		color: #fff
+	button.mfp-close
+		color: #fff
+	
+
+section.s_contact
+	form.form
+		color: $text-color
+		.form-group
+			label
+				color: $color
+			input:focus,
+			textarea:focus,
+			input:hover,
+			textarea:hover,
+			input:active,
+			textarea:active
+				border: 1px solid $color
+				transition: all 0.9s
+			#inputEmail-error,
+			#inputName-error,
+			#textarea-error
+				color: red
+				text-align: right
+			.invalid
+				
+			.valid
+				background-color: #daf4e5
+		button
+			background-color: $color
+	
+
+
+
+
+footer.main_footer
+	p
+		color: $text_color
+	.social_wrap
+		ul,
+		li
+			color: $color
